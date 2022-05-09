@@ -1,2 +1,2 @@
 # ComputerGraphics
-Kongju.Univ Computer Graphics Final Project
+Kongju.Univ Computer Graphics 3rd Grade 1st Semesiter Final Project
