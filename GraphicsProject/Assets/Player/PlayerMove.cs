@@ -28,9 +28,32 @@ public class PlayerMove : MonoBehaviour
     }
 
     void Move() {
-        if ((Input.GetKey(KeyCode.W) && Is2D == false) || (Is2D == true && Input.GetKey(KeyCode.D)))  //캐릭터가 전방 이동시
+        if ((Input.GetKey(KeyCode.S) && Is2D == false) || (Is2D == true && Input.GetKey(KeyCode.A)))
+        {  //캐릭터가 후방 이동시
+            animator.SetBool("IsBack", true);
+            animator.SetBool("IsJump", false);
+            if (Is2D == false)
+            {
+                float h = Input.GetAxis("Horizontal");
+                float v = Input.GetAxis("Vertical");
+                transform.Translate((new Vector3(h, 0, v) * MoveSpeed) * Time.deltaTime);
+            }
+            else
+            {
+                float v = Input.GetAxis("Horizontal");
+
+                transform.Translate((new Vector3(0, 0, v) * MoveSpeed) * Time.deltaTime);
+            }
+        }
+        else
+        {
+            animator.SetBool("IsBack", false);
+        }
+
+        if ((Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D)) && (Is2D == false) || (Is2D == true && Input.GetKey(KeyCode.D)))  //캐릭터가 뒤를 제외한 모든 움직임
         {
             animator.SetBool("IsMoving", true);
+            animator.SetBool("IsJump", false);
             if (Is2D == false)
             {
                 float h = Input.GetAxis("Horizontal");
@@ -63,6 +86,7 @@ public class PlayerMove : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space)) {
             if (!IsJumping)
             {
+                animator.SetBool("IsJump", true);
                 IsJumping = true;
                 rigid.AddForce(Vector3.up * JumpPower, ForceMode.Impulse);
             }
@@ -75,6 +99,7 @@ public class PlayerMove : MonoBehaviour
     private void OnCollisionEnter(Collision collision) {
         if (collision.gameObject.CompareTag("Land")) {
             IsJumping = false;
+            animator.SetBool("IsJump", false);
         }
     }
 }
