@@ -1,9 +1,10 @@
-using System.Collections;
+ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerMove : MonoBehaviour
 {
+    private Animator animator;
 
     private Rigidbody rigid;
 
@@ -12,39 +13,49 @@ public class PlayerMove : MonoBehaviour
 
     private bool IsJumping;
     private bool Is2D = false;
-
-    public GameObject cam;
+    private bool IsChecked = false;
 
     void Start() {
+        animator = GetComponent<Animator>();
         rigid = GetComponent<Rigidbody>();
         IsJumping = false;
             }
 
     void Update() {
         Move();
-           Jump();
+        Jump();
         Check();
     }
 
     void Move() {
-        if (Is2D == false)
+        if ((Input.GetKey(KeyCode.W) && Is2D == false) || (Is2D == true && Input.GetKey(KeyCode.D)))  //캐릭터가 전방 이동시
         {
-            float h = Input.GetAxis("Horizontal");
-            float v = Input.GetAxis("Vertical");
+            animator.SetBool("IsMoving", true);
+            if (Is2D == false)
+            {
+                float h = Input.GetAxis("Horizontal");
+                float v = Input.GetAxis("Vertical");
+                transform.Translate((new Vector3(h, 0, v) * MoveSpeed) * Time.deltaTime);
+            }
+            else
+            {
+                float v = Input.GetAxis("Horizontal");
 
-            transform.Translate((new Vector3(h, 0, v) * MoveSpeed) * Time.deltaTime);
+                transform.Translate((new Vector3(0, 0, v) * MoveSpeed) * Time.deltaTime);
+            }
         }
-        else {
-            float v = Input.GetAxis("Horizontal");
-
-            transform.Translate((new Vector3(0, 0, v) * MoveSpeed) * Time.deltaTime);
+        else
+        {
+            animator.SetBool("IsMoving", false);
         }
     }
 
     void Check() {
-        if (cam.activeSelf == true) { 
+        GameObject cam = GameObject.Find("SideCamera");
+        if (cam.activeSelf == true && IsChecked == false) { 
             Debug.Log("화면 전환 입장");
             Is2D = true;
+            IsChecked = true;
         }
     }
 
