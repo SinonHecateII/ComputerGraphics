@@ -8,12 +8,15 @@ public class CameraChange : MonoBehaviour
     public GameObject cam2;
 
     GameObject player;
+    GameObject spawn;
+    GameObject ChangeArea;
 
     // Start is called before the first frame update
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
-      
+        spawn = GameObject.FindGameObjectWithTag("SpawnPoint");
+        ChangeArea = GameObject.FindGameObjectWithTag("ChangeButton");
     }
 
     // Update is called once per frame
@@ -28,7 +31,8 @@ public class CameraChange : MonoBehaviour
         {
             cam2.SetActive(true);
             cam1.SetActive(false);
-            
+            spawn.transform.position = ChangeArea.transform.position;
+
         }
     }
 
