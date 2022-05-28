@@ -58,11 +58,12 @@
     <Compile Include="Assets\Object\UD_Object.cs" />
     <Compile Include="Assets\Object\Spawn\DeadZone.cs" />
     <Compile Include="Assets\Design_Object\LowPolyWater_Pack\Scripts\LowPolyWater.cs" />
-    <Compile Include="Assets\Object\Crash.cs" />
+    <Compile Include="Assets\Interaction\Crash.cs" />
     <Compile Include="Assets\Object\LR_Object.cs" />
-    <Compile Include="Assets\Player\CameraChange.cs" />
+    <Compile Include="Assets\Interaction\CameraChange.cs" />
     <Compile Include="Assets\Player\CameraMove.cs" />
     <Compile Include="Assets\Object\Spawn\Spawner.cs" />
+    <Compile Include="Assets\Interaction\GoalCode.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Design_Object\LowPolyWater_Pack\Shaders\WaterShaded.shader" />

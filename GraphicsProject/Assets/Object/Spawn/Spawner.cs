@@ -17,7 +17,7 @@ public class Spawner : MonoBehaviour
 
     void SpawnPlay()
     {
-        if(currTime > 2)
+        if(currTime > 5)
         {
             SpawnObj = 0;
             switch (SpawnObj)
