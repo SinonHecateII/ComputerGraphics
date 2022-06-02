@@ -27,7 +27,7 @@ public class GoalCode : MonoBehaviour
             cam1.SetActive(true);
             cam2.SetActive(false);
 
-            Invoke("Disable", 2f);
+            Invoke("Disable", 1.8f);
         }
     }
 
