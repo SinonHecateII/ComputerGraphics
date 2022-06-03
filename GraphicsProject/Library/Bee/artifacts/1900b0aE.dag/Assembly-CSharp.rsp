@@ -368,6 +368,7 @@
 "Assets/Assets/01. Scripts/Test/TriggerEnter.cs"
 "Assets/Assets/01. Scripts/UI/CommonPopup.cs"
 "Assets/Assets/01. Scripts/UI/GraphicSettingWarningPopup.cs"
+"Assets/Assets/01. Scripts/UI/MainMenuPauseCanvas.cs"
 "Assets/Assets/01. Scripts/UI/MonoBehaviourUI.cs"
 "Assets/Assets/01. Scripts/UI/MultiGage.cs"
 "Assets/Assets/01. Scripts/UI/OptionCanvas.cs"

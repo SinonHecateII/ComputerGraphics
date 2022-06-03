@@ -17,6 +17,7 @@ namespace Kupa
         [SerializeField] private Button restartBtn;
         [SerializeField] private Button optionBtn;
         [SerializeField] private Button exitBtn;
+        [SerializeField] private Button startBtn;
 
         private void Awake()
         {
@@ -26,6 +27,7 @@ namespace Kupa
             restartBtn.onClick.AddListener(OnClickRestart);
             optionBtn.onClick.AddListener(OnClickOption);
             exitBtn.onClick.AddListener(OnClickExit);
+            restartBtn.onClick.AddListener(OnClickStart);
 
 #if UNITY_WEBGL
             exitBtn.interactable = false;
@@ -85,6 +87,9 @@ namespace Kupa
         public void OnClickExit()
         {
             Application.Quit();
+        }
+        public void OnClickStart() {
+            SceneManager.LoadScene("SampleScene");
         }
     }
 }
