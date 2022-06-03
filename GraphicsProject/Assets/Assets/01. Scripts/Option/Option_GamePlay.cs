@@ -24,12 +24,14 @@ namespace Kupa
         private int mouseSensitivity;         //마우스 감도
 
         private OptionCanvas optionCanvas;
+        GameObject Sensitivity;
 
         private void Awake()
         {
             InitOptionItem(mouseSensitivityObject, out mouseSensitivityText, out mouseSensitivityButtonDown, out mouseSensitivityButtonUp, out mouseSensitivitySlider, OnClickMouseSensitivityDown, OnClickMouseSensitivityUp, OnValueChangedMouseSensitivity);
 
             optionCanvas = GetComponentInParent<OptionCanvas>();    //옵션 내 공용 버튼을 위함. (적용, 닫기 버튼)
+            Sensitivity = GameObject.FindGameObjectWithTag("Sensitivity");
         }
 
         protected override void OnEnable()
@@ -75,6 +77,7 @@ namespace Kupa
         {
             mouseSensitivitySlider.value = mouseSensitivity;
             mouseSensitivityText.text = mouseSensitivity.ToString();
+            Sensitivity.transform.position = new Vector3(mouseSensitivity, 0, 0);
         }
 
 
