@@ -21,6 +21,7 @@ ScriptsOnlyBuild:
     - Kupa.UIManager
     - LR_Object
     - PlayerMove
+    - ScrollingUVs_Layers
     - Spawner
     - UD_Object
     Unity.Rider.Editor.dll:
@@ -122,61 +123,61 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1594}
     - Class: 114
-      Script: {instanceID: 2260}
+      Script: {instanceID: 2276}
     - Class: 114
-      Script: {instanceID: 2726}
+      Script: {instanceID: 2742}
     - Class: 114
-      Script: {instanceID: 2948}
+      Script: {instanceID: 2964}
     - Class: 114
-      Script: {instanceID: 3090}
+      Script: {instanceID: 3064}
     - Class: 114
-      Script: {instanceID: 3244}
+      Script: {instanceID: 3108}
     - Class: 114
-      Script: {instanceID: 3422}
+      Script: {instanceID: 3262}
     - Class: 114
-      Script: {instanceID: 3644}
+      Script: {instanceID: 3440}
     - Class: 114
-      Script: {instanceID: 4072}
+      Script: {instanceID: 3662}
     - Class: 114
-      Script: {instanceID: 4320}
+      Script: {instanceID: 4090}
     - Class: 114
-      Script: {instanceID: 4370}
+      Script: {instanceID: 4338}
     - Class: 114
-      Script: {instanceID: 4588}
+      Script: {instanceID: 4388}
     - Class: 114
-      Script: {instanceID: 4756}
+      Script: {instanceID: 4606}
     - Class: 114
-      Script: {instanceID: 4792}
+      Script: {instanceID: 4774}
     - Class: 114
-      Script: {instanceID: 5250}
+      Script: {instanceID: 4810}
     - Class: 114
-      Script: {instanceID: 5258}
+      Script: {instanceID: 5268}
     - Class: 114
-      Script: {instanceID: 5286}
+      Script: {instanceID: 5276}
     - Class: 114
-      Script: {instanceID: 5336}
+      Script: {instanceID: 5304}
     - Class: 114
-      Script: {instanceID: 5594}
+      Script: {instanceID: 5354}
     - Class: 114
-      Script: {instanceID: 5934}
+      Script: {instanceID: 5612}
     - Class: 114
-      Script: {instanceID: 6090}
+      Script: {instanceID: 5952}
     - Class: 114
-      Script: {instanceID: 6154}
+      Script: {instanceID: 6108}
     - Class: 114
-      Script: {instanceID: 6420}
+      Script: {instanceID: 6172}
     - Class: 114
-      Script: {instanceID: 6430}
+      Script: {instanceID: 6438}
     - Class: 114
-      Script: {instanceID: 6742}
+      Script: {instanceID: 6448}
     - Class: 114
-      Script: {instanceID: 6854}
+      Script: {instanceID: 6762}
     - Class: 114
-      Script: {instanceID: 7538}
+      Script: {instanceID: 6874}
     - Class: 114
-      Script: {instanceID: 52930}
+      Script: {instanceID: 7558}
     - Class: 114
-      Script: {instanceID: 60038}
+      Script: {instanceID: 23652}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -235,75 +236,77 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1594}
     - Class: 114
-      Script: {instanceID: 1794}
+      Script: {instanceID: 1810}
     - Class: 114
-      Script: {instanceID: 2018}
+      Script: {instanceID: 2034}
     - Class: 114
-      Script: {instanceID: 2314}
+      Script: {instanceID: 2330}
     - Class: 114
-      Script: {instanceID: 2398}
+      Script: {instanceID: 2414}
     - Class: 114
-      Script: {instanceID: 2428}
+      Script: {instanceID: 2444}
     - Class: 114
-      Script: {instanceID: 2436}
+      Script: {instanceID: 2452}
     - Class: 114
-      Script: {instanceID: 2726}
+      Script: {instanceID: 2742}
     - Class: 114
-      Script: {instanceID: 2948}
+      Script: {instanceID: 2964}
     - Class: 114
-      Script: {instanceID: 3244}
+      Script: {instanceID: 3262}
     - Class: 114
-      Script: {instanceID: 3422}
+      Script: {instanceID: 3440}
     - Class: 114
-      Script: {instanceID: 3644}
+      Script: {instanceID: 3662}
     - Class: 114
-      Script: {instanceID: 3666}
+      Script: {instanceID: 3684}
     - Class: 114
-      Script: {instanceID: 4072}
+      Script: {instanceID: 4090}
     - Class: 114
-      Script: {instanceID: 4370}
+      Script: {instanceID: 4388}
     - Class: 114
-      Script: {instanceID: 4756}
+      Script: {instanceID: 4774}
     - Class: 114
-      Script: {instanceID: 4792}
+      Script: {instanceID: 4810}
     - Class: 114
-      Script: {instanceID: 5250}
+      Script: {instanceID: 5268}
     - Class: 114
-      Script: {instanceID: 5258}
+      Script: {instanceID: 5276}
     - Class: 114
-      Script: {instanceID: 5286}
+      Script: {instanceID: 5304}
     - Class: 114
-      Script: {instanceID: 5336}
+      Script: {instanceID: 5354}
     - Class: 114
-      Script: {instanceID: 5594}
+      Script: {instanceID: 5612}
     - Class: 114
-      Script: {instanceID: 5658}
+      Script: {instanceID: 5676}
     - Class: 114
-      Script: {instanceID: 5934}
+      Script: {instanceID: 5952}
     - Class: 114
-      Script: {instanceID: 6084}
+      Script: {instanceID: 6102}
     - Class: 114
-      Script: {instanceID: 6090}
+      Script: {instanceID: 6108}
     - Class: 114
-      Script: {instanceID: 6132}
+      Script: {instanceID: 6150}
     - Class: 114
-      Script: {instanceID: 6154}
+      Script: {instanceID: 6172}
     - Class: 114
-      Script: {instanceID: 6420}
+      Script: {instanceID: 6438}
     - Class: 114
-      Script: {instanceID: 6430}
+      Script: {instanceID: 6448}
     - Class: 114
-      Script: {instanceID: 6742}
+      Script: {instanceID: 6718}
     - Class: 114
-      Script: {instanceID: 6854}
+      Script: {instanceID: 6762}
     - Class: 114
-      Script: {instanceID: 7102}
+      Script: {instanceID: 6874}
     - Class: 114
-      Script: {instanceID: 7538}
+      Script: {instanceID: 7122}
     - Class: 114
-      Script: {instanceID: 7738}
+      Script: {instanceID: 7558}
     - Class: 114
-      Script: {instanceID: 8340}
+      Script: {instanceID: 7758}
+    - Class: 114
+      Script: {instanceID: 8360}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -587,6 +590,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
     className: TestResultRendererCallback
+  - hash:
+      serializedVersion: 2
+      Hash: 771e8d51745b1498420fb2f981ae9e9c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Kupa
+    className: MainMenuPauseCanvas
   - hash:
       serializedVersion: 2
       Hash: 864edab59addebe139bc2679142b3e77
@@ -1153,6 +1162,12 @@ ScriptsOnlyBuild:
     className: TextContainer
   - hash:
       serializedVersion: 2
+      Hash: b44ae65e778f5321b84fb92ea67776f9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ScrollingUVs_Layers
+  - hash:
+      serializedVersion: 2
       Hash: 9bd2437612b25b8c9cca4586212901fb
     assemblyName: Assembly-CSharp.dll
     namespaceName: Kupa
@@ -1433,14 +1448,9 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 771e8d51745b1498420fb2f981ae9e9c
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Kupa
-    className: MainMenuPauseCanvas
   platform: 19
   scenePathNames:
   - Assets/Scenes/MainMenu.unity
   - Assets/Scenes/SampleScene.unity
-  playerPath: "C:/Computer Graphics/Build/\uBA54\uC778\uBA54\uB274 \uC644\uC131/GraphicsProject.exe"
+  playerPath: "C:/Users/mkj46/Desktop/Project/Unity/ComputerGraphics/Build/\uCD08\uAE30
+    \uAC1C\uBC1C/GraphicsProject.exe"

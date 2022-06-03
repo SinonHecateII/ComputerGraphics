@@ -172,7 +172,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5211671221500643824, guid: 3ab7cb160a1f6134d8cef5812001260f, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5211671221500643824, guid: 3ab7cb160a1f6134d8cef5812001260f, type: 3}
       propertyPath: m_AnchorMin.x
@@ -180,7 +180,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5211671221500643824, guid: 3ab7cb160a1f6134d8cef5812001260f, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5211671221500643824, guid: 3ab7cb160a1f6134d8cef5812001260f, type: 3}
       propertyPath: m_SizeDelta.x
@@ -220,11 +220,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5211671221500643824, guid: 3ab7cb160a1f6134d8cef5812001260f, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 504.31982
       objectReference: {fileID: 0}
     - target: {fileID: 5211671221500643824, guid: 3ab7cb160a1f6134d8cef5812001260f, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -256.97977
       objectReference: {fileID: 0}
     - target: {fileID: 5211671221500643824, guid: 3ab7cb160a1f6134d8cef5812001260f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -713,7 +713,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.9528302, g: 0.87797046, b: 0.6067551, a: 1}
+  m_Color: {r: 0.5283019, g: 0.5283019, b: 0.5283019, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -721,7 +721,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_Sprite: {fileID: 0}
-  m_Type: 0
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1870,7 +1870,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.23529412, g: 0.22745098, b: 0.39607844, a: 0.5019608}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.5019608}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2332,7 +2332,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5211671221500643824, guid: 3ab7cb160a1f6134d8cef5812001260f, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5211671221500643824, guid: 3ab7cb160a1f6134d8cef5812001260f, type: 3}
       propertyPath: m_AnchorMin.x
@@ -2340,7 +2340,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5211671221500643824, guid: 3ab7cb160a1f6134d8cef5812001260f, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5211671221500643824, guid: 3ab7cb160a1f6134d8cef5812001260f, type: 3}
       propertyPath: m_SizeDelta.x
@@ -2380,11 +2380,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5211671221500643824, guid: 3ab7cb160a1f6134d8cef5812001260f, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 504.31982
       objectReference: {fileID: 0}
     - target: {fileID: 5211671221500643824, guid: 3ab7cb160a1f6134d8cef5812001260f, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -118.993256
       objectReference: {fileID: 0}
     - target: {fileID: 5211671221500643824, guid: 3ab7cb160a1f6134d8cef5812001260f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2427,7 +2427,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1085761900
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2838,7 +2838,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.227451, g: 0.121568635, b: 0.10980393, a: 0.7529412}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.7529412}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -3189,6 +3189,10 @@ PrefabInstance:
       value: 39
       objectReference: {fileID: 0}
     - target: {fileID: 5211671221958634494, guid: 3ab7cb160a1f6134d8cef5812001260f, type: 3}
+      propertyPath: m_fontStyle
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 5211671221958634494, guid: 3ab7cb160a1f6134d8cef5812001260f, type: 3}
       propertyPath: m_fontSizeBase
       value: 39
       objectReference: {fileID: 0}
@@ -3399,6 +3403,10 @@ PrefabInstance:
     - target: {fileID: 5211671221500643825, guid: 3ab7cb160a1f6134d8cef5812001260f, type: 3}
       propertyPath: m_Name
       value: "\uADF8\uB798\uD53D"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5211671221500643825, guid: 3ab7cb160a1f6134d8cef5812001260f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5211671221958634494, guid: 3ab7cb160a1f6134d8cef5812001260f, type: 3}
       propertyPath: m_text
@@ -3791,11 +3799,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9dacf0ba80791f743ad939e4dcc2e453, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  commonPopupPrefab: {fileID: 7442545545942756194, guid: 4841cf3a0be9e0c449a94e1b20ff15bc, type: 3}
-  graphicSettingWarningPopup: {fileID: 7442545545942756194, guid: cd1bc831806eba14c8e4b105dfad6b2e, type: 3}
-  popupCanvas: {fileID: 27102652}
-  pauseCanvas: {fileID: 1085761898}
-  optionCanvas: {fileID: 20580239}
 --- !u!114 &1830800844
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3898,13 +3901,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30
-  m_fontSizeBase: 30
+  m_fontSize: 25
+  m_fontSizeBase: 25
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -4668,7 +4671,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5211671221500643824, guid: 3ab7cb160a1f6134d8cef5812001260f, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5211671221500643824, guid: 3ab7cb160a1f6134d8cef5812001260f, type: 3}
       propertyPath: m_AnchorMin.x
@@ -4676,7 +4679,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5211671221500643824, guid: 3ab7cb160a1f6134d8cef5812001260f, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5211671221500643824, guid: 3ab7cb160a1f6134d8cef5812001260f, type: 3}
       propertyPath: m_SizeDelta.x
@@ -4716,11 +4719,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5211671221500643824, guid: 3ab7cb160a1f6134d8cef5812001260f, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 504.31982
       objectReference: {fileID: 0}
     - target: {fileID: 5211671221500643824, guid: 3ab7cb160a1f6134d8cef5812001260f, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -394.96628
       objectReference: {fileID: 0}
     - target: {fileID: 5211671221500643824, guid: 3ab7cb160a1f6134d8cef5812001260f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -4918,7 +4921,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.9960785, g: 0.81568635, b: 0.09411766, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1

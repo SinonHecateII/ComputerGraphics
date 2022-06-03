@@ -379,6 +379,7 @@
 "Assets/Assets/01. Scripts/Util/FPS.cs"
 "Assets/Assets/01. Scripts/Util/PreferenceData.cs"
 "Assets/Assets/09.Assets/StarterParticles/RotateFlareHolder.cs"
+"Assets/Design_Object/Lava_Flowing_Shader/Scripts/ScrollingUVs_Layers.cs"
 "Assets/Design_Object/LowPolyWater_Pack/Scripts/LowPolyWater.cs"
 "Assets/Interaction/CameraChange.cs"
 "Assets/Interaction/Crash.cs"

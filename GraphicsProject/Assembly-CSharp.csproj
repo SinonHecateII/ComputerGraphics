@@ -83,6 +83,7 @@
     <Compile Include="Assets\Interaction\CameraChange.cs" />
     <Compile Include="Assets\Assets\01. Scripts\UI\GraphicSettingWarningPopup.cs" />
     <Compile Include="Assets\Assets\01. Scripts\Test\TriggerEnter.cs" />
+    <Compile Include="Assets\Design_Object\Lava_Flowing_Shader\Scripts\ScrollingUVs_Layers.cs" />
     <Compile Include="Assets\Assets\01. Scripts\AttackCollider.cs" />
     <Compile Include="Assets\Assets\01. Scripts\Util\FPS.cs" />
     <Compile Include="Assets\Assets\01. Scripts\InitializeManager.cs" />
@@ -101,11 +102,14 @@
     <None Include="Assets\Assets\09.Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\Assets\09.Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\Assets\09.Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\Design_Object\Lava_Flowing_Shader\Shaders\Diffuse_Lava_Distort.shader" />
     <None Include="Assets\Assets\09.Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
     <None Include="Assets\Assets\09.Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
     <None Include="Assets\Assets\09.Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\Design_Object\Lava_Flowing_Shader\ReadMe.txt" />
     <None Include="Assets\Design_Object\LowPolyWater_Pack\Shaders\WaterShaded.shader" />
     <None Include="Assets\Assets\09.Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
+    <None Include="Assets\Design_Object\Lava_Flowing_Shader\Shaders\Unlit_Lava_Distort_Transparent.shader" />
     <None Include="Assets\Design_Object\LowPolyWater_Pack\LowPoly Island\Credits.txt" />
     <None Include="Assets\Assets\09.Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
     <None Include="Assets\Assets\09.Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
@@ -114,12 +118,14 @@
     <None Include="Assets\Assets\09.Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\Assets\09.Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\Assets\09.Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\Design_Object\Lava_Flowing_Shader\Shaders\Unlit_Lava_Distort.shader" />
     <None Include="Assets\Assets\09.Assets\StarterParticles\Helpers\readme.txt" />
     <None Include="Assets\Assets\09.Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\Assets\09.Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\Assets\09.Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\Assets\09.Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
     <None Include="Assets\Assets\09.Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+    <None Include="Assets\Design_Object\Lava_Flowing_Shader\Shaders\Unlit_Lava_Simple.shader" />
     <None Include="Assets\Assets\09.Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
     <None Include="Assets\Assets\09.Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
   </ItemGroup>
